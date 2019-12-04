@@ -41,8 +41,8 @@ class Search extends React.Component {
         return(
       <div>
         <Layout>
-          <img src="/static/xmas.gif" width="100px" height="100px"></img>
-        <h2>Country Search</h2>
+        <h2>This is my Country Search</h2>
+        <h5>Brought to you by: Jordan Reiser</h5>
           </Layout>
         <Layout2>
 
@@ -80,7 +80,7 @@ class Search extends React.Component {
         </tbody>
       </table>
 </div> : null}
-<img src="/static/batman2.gif" className="meh" width= "500px" height= "300px"/>
+<img src="/static/comsci.jpeg" width= "500px" height= "300px"/>
 <br></br>
 </Layout2>
             <style jsx>{`

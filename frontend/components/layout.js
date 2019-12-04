@@ -5,8 +5,8 @@ const layoutStyle = {
   //margin: 20,
   padding: 20,
   border: '4px solid #AAA',
-  background: "linear-gradient(to bottom right, blue, black, red 80%)",
-  color: "white",
+  background: "gray",
+  color: "black",
   fontSize: "30px"
 }
 
