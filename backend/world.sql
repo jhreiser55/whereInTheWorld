@@ -1,5 +1,3 @@
-DROP user if exists whereinworld;
-CREATE user whereinworld with ENCRYPTED PASSWORD 'abc123';
 alter user whereinworld with superuser;
 DROP DATABASE IF EXISTS world;
 CREATE DATABASE  world;
@@ -5376,9 +5374,6 @@ INSERT INTO CountryLanguage VALUES ('ZWE','Ndebele','F',16.2);
 INSERT INTO CountryLanguage VALUES ('ZWE','Nyanja','F',2.2);
 INSERT INTO CountryLanguage VALUES ('ZWE','Shona','F',72.1);
 
-
-GRANT SELECT ON City TO whereinworld;
-GRANT SELECT ON CountryLanguage To whereinworld;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
