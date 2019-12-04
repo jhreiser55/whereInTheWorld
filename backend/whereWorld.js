@@ -23,11 +23,14 @@ app.get("/api/info", async (req, res) => {
             const response = await pool.query(template, [
                     req.query.q
             ]);
+	    if(response.rowCount == 0){
+		res.sendStatus(404);
+	    }
             res.json(response.rows);
     } catch (err) {
             console.error("Query stupid" + err);
     }
 });
 app.listen(app.get("port"), () => {
-	console.log(`Find the server at: http://localhost:${app.get("port")}/`);
+	console.log(`Find the server at: http://34.73.193.139:${app.get("port")}/`);
 });

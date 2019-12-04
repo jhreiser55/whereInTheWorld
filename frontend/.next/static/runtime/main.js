@@ -6181,7 +6181,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/jhreiser/Desktop/School/CPSC350/whereInTheWorld/frontend/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/jordanreiser55/zacharski350/whereInTheWorld/frontend/.next");
       return error;
     }
   };

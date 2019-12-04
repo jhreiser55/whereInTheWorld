@@ -3,7 +3,7 @@ require("isomorphic-fetch");
 
 function getProfile(food) {
   console.log("hello");
-  return fetch(`http://localhost:8080/api/info?q=${food}`).then(function(resp) {
+  return fetch(`http://34.73.193.139/api/info?q=${food}`).then(function(resp) {
     return resp.json();
   });
 }

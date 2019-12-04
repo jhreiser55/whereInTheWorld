@@ -23,8 +23,8 @@ class Search extends React.Component {
 
     handleFunction(){
         if(this.state.food == null){
-            this.state.food = "rawr";
-            return ( <div><h5>{this.state.search} no foundo</h5>
+            this.state.food = "this is some food";
+            return ( <div><h5>{this.state.search} not found</h5>
                 <style jsx>{`
                     h5{
                         text-align:center;
@@ -39,7 +39,6 @@ class Search extends React.Component {
 
     render(){
         return(
-            //<Layout>
       <div>
         <Layout>
           <img src="/static/xmas.gif" width="100px" height="100px"></img>
